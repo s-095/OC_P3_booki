@@ -18,6 +18,48 @@ body {
     justify-content: center;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 15%;
+  }
+  
+  nav a {
+    color: inherit;
+    text-decoration: none;
+    position: relative; /* Ajouté pour positionner le pseudo-élément */ 
+    margin-right: 30px;
+    }
+  
+  nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -27px; /* Ajustez cette valeur pour l'espace souhaité */
+    height: 2px;
+    background-color: transparent;
+  }
+  
+  nav a:hover {
+    color: blue;
+  }
+  
+  nav a:hover::after {
+    background-color: blue;
+  }
+
+
+
 .main-container {
     width: 100%;
     max-width: 1440px;
