@@ -236,11 +236,11 @@ a {
 .card-title {
     font-size: 16px;
     margin-bottom: 8px;
-    è
+    
 }
 
 .euro {
-    font-weight: 700;
+    font-weight: 700px;
 }
 
 .neutral-star {
@@ -472,7 +472,6 @@ footer article {
         margin: unset;
     }
 
-
     header {
         display: flex;
         flex-direction: column;
@@ -481,7 +480,6 @@ footer article {
     }
 
     nav {
-
 
         border-bottom: #2222;
         border-bottom-style: solid;
@@ -492,8 +490,6 @@ footer article {
         padding-bottom: 15px;
         margin-top: 30px;
     }
-
-    nav a :hover {}
 
     nav a::after {
         content: "";
@@ -521,11 +517,7 @@ footer article {
     .search-input-container {}
 
     .search-input {
-
         padding: 18px 45px;
-
-
-
     }
 
     .search-button {
@@ -572,6 +564,7 @@ footer article {
     .hebergements-cards {
         display: flex;
         flex-direction: column;
+        align-content: center;
     }
 
     .hebergements-cards .card {
@@ -618,7 +611,10 @@ footer article {
 
     .activity-card-content {}
 
-    footer {}
+    footer {
+        flex-direction: column;
+        gap: 25px;
+    }
 
     .a-propos {
         display: flex;
