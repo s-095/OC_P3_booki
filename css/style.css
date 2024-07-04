@@ -57,7 +57,7 @@ nav a:hover::after {
 /* **** Bannière **** */
 
 .banner {
-    margin: 30px 0px 35px 0px;
+    margin: 30px 0px 25px 0px;
 }
 
 /* **** Formulaire **** */
@@ -191,14 +191,20 @@ nav a:hover::after {
 }
 
 /* **** */
-
+.info{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 #info-icon {
+    font-size:10px;
     font-weight: bold;
     font-style: normal;
     border: #d9d9d9;
     border-radius: 30px;
     border-style: solid;
-    padding: 6px 12px;
+    padding: 6px 10px;
     border-width: 1px;
 }
 
@@ -507,7 +513,7 @@ footer article {
     }
 
     .banner {
-        margin: 30px 10px 35px 10px;
+        margin: 30px 20px
     }
 
     .search-container {
@@ -539,7 +545,15 @@ footer article {
         align-content: center;
         align-items: stretch;
     }
-
+.info{
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+}
+#info-icon {
+    padding: 4px 8px;
+}
     .main-container {
         box-sizing: unset;
         padding: unset
