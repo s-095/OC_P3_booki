@@ -122,7 +122,7 @@ nav a:hover::after {
 }
 
 /* ***** Filtres ***** */
-.filters{
+.filters {
     display: flex;
     gap: 10px;
 }
@@ -475,6 +475,18 @@ footer article {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    /* **** Activités **** */
+
+    .activities img {
+        height: 200px;
+    }
+
+    .activity-card {
+        height: 270px;
+    }
+
+
 }
 
 /* Small devices (phones, less than 768px) */
@@ -490,7 +502,7 @@ footer article {
         margin: 22px 0px 30px 0px
     }
 
-/* **** navigation **** */
+    /* **** navigation **** */
 
     nav {
 
@@ -519,7 +531,7 @@ footer article {
         text-align: center;
     }
 
-/* **** bannière **** */
+    /* **** bannière **** */
 
     .banner {
         margin: 30px 20px
@@ -548,16 +560,20 @@ footer article {
         border-radius: 20px;
         box-shadow: 1px 6px 4px rgba(0, 0, 0, 0.2);
     }
-    .fa-magnifying-glass:before, .fa-search:before {
+
+    .fa-magnifying-glass:before,
+    .fa-search:before {
         content: "\f002";
         color: white;
-}
+    }
+
     /* **** */
 
-    .filters{
+    .filters {
         display: flex;
         flex-direction: column;
     }
+
     .filters-links {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -577,7 +593,7 @@ footer article {
         padding: 4px 8px;
     }
 
-/* **** contenu **** */
+    /* **** contenu **** */
 
     .main-container {
         box-sizing: unset;
@@ -658,7 +674,7 @@ footer article {
 
     .activity-card-content {}
 
-/* **** footer **** */
+    /* **** footer **** */
 
     footer {
         flex-direction: column;
