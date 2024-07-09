@@ -83,7 +83,7 @@ nav a:hover::after {
 }
 
 .search-input {
-    padding: 18px 24px;
+    padding: 18px 24px; 
     outline: none;
     border: 0.5px solid #f2f2f2;
 }
@@ -134,7 +134,7 @@ nav a:hover::after {
     gap: 15px;
 }
 
-#economique {
+.filters-links button {
     font-weight: bold;
     font-style: normal;
     border: #d9d9d9;
@@ -142,56 +142,19 @@ nav a:hover::after {
     border-style: solid;
     border-width: 2px;
     padding: 15px 20px 15px 20px;
+    background-color: white;
+    font-size: 17px;
+    display: flex;
+    gap: 12px;
+    
 }
 
-#economique:hover {
+.filters-links button i {
+    font-size: 22px;
+}
+
+.filters-links button:hover {
     background-color: #DEEBFF;
-    cursor: pointer;
-}
-
-#familial {
-    font-weight: bold;
-    font-style: normal;
-    border: #d9d9d9;
-    border-radius: 30px;
-    border-style: solid;
-    border-width: 2px;
-    padding: 15px 20px 15px 20px;
-}
-
-#familial:hover {
-    background-color: #DEEBFF;
-    cursor: pointer;
-}
-
-#romantique {
-    font-weight: bold;
-    font-style: normal;
-    border: #d9d9d9;
-    border-radius: 30px;
-    border-style: solid;
-    border-width: 2px;
-    padding: 15px 20px 15px 20px;
-}
-
-#romantique:hover {
-    background-color: #DEEBFF;
-    cursor: pointer;
-}
-
-#pepites {
-    font-weight: bold;
-    font-style: normal;
-    border: #d9d9d9;
-    border-radius: 30px;
-    border-style: solid;
-    border-width: 2px;
-    padding: 15px 20px 15px 20px;
-}
-
-#pepites:hover {
-    background-color: #DEEBFF;
-    cursor: pointer;
 }
 
 /* **** */
@@ -445,6 +408,11 @@ footer article {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .filters-links button {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -539,32 +507,27 @@ footer article {
 
     /* formulaire */
 
-    .formulaire{
-        padding-bottom: 40px
-    }
-
+   
     .loc {
         background-color: #f2f2f2;
-        border-radius:  15px 0px 0px 15px;
+        border-radius: 15px 0px 0px 15px;
         width: 52.5px;
         height: 52.5px;
         position: absolute;
         left: 30px;
-        Z-index:3
+        Z-index: 3
     }
 
     .search-container {
         justify-content: center;
     }
 
-    .search-input-container {
-        position: absolute;
-        z-index: 1;
-    }
 
     .search-input {
         padding: 18px 55px;
-    
+        margin: 0px 25px 0px 25px;
+        z-index: 1;
+        flex-grow: 1;
     }
 
     .search-button {
