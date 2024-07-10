@@ -63,7 +63,7 @@ nav a:hover::after {
 /* **** Formulaire **** */
 
 .formulaire {
-    margin: 35px 0px 20px 0px;
+    margin: 35px 0px 35px 0px;
 }
 
 .search-container {
@@ -251,7 +251,8 @@ a {
 .hebergements-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 
 .hebergements-cards .card {
@@ -262,15 +263,14 @@ a {
 
 .hebergements-cards img {
     width: 100%;
-    height: 109px;
+    height: 124px;
     border-radius: 20px 20px 0px 0px;
 }
 
 .hebergements-cards .card-content {
     width: 100%;
-    padding-left: 15px;
-
-
+    padding-left: 12px;
+    margin-top: -9.5px;
     box-sizing: border-box;
 }
 
