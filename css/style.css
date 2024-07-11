@@ -627,11 +627,12 @@ footer article {
 
     .hebergements-cards .card {
         width: 100%;
+        margin-top: 15px;
     }
 
     #afficher-plus {
         margin: unset;
-        margin-top: 25px;
+        margin-top: 15px;
     }
 
 /* **** Populaires Mob **** */
@@ -654,6 +655,10 @@ footer article {
     }
 
 /* **** Activités Mob **** */
+
+    .activities {
+        margin-top: 55px;
+    }
 
     .activities-title {
         margin-left: 10px;
