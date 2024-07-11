@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin-bottom: unset;
 }
 
 header {
@@ -226,7 +227,6 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
-
 }
 
 .hebergements-and-populaires section {
@@ -238,6 +238,7 @@ a {
 }
 
 /****** Hebergements ***********/
+
 .hebergements {
     width: 65%;
     background-color: var(--main-bg-color);
@@ -253,11 +254,9 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .hebergements-cards .card {
-
     margin-top: 30px;
     width: 29.5%;
 }
@@ -462,9 +461,7 @@ footer article {
         width: 40%
     }
 
-    .populaires-cards .card-txt {}
-
-    /* **** Activités Tab **** */
+/* **** Activités Tab **** */
 
     .activities img {
         height: 200px;
@@ -489,7 +486,7 @@ footer article {
         margin: 22px 0px 30px 0px
     }
 
-    /* **** Navigation Mob **** */
+/* **** Navigation Mob **** */
 
     nav {
         border-bottom: #2222;
@@ -517,13 +514,13 @@ footer article {
         text-align: center;
     }
 
-    /* **** Bannière Mob **** */
+/* **** Bannière Mob **** */
 
     .banner {
         margin: 30px 20px
     }
 
-    /* **** Formulaire Mob **** */
+/* **** Formulaire Mob **** */
 
     .loc {
         background-color: #f2f2f2;
@@ -571,7 +568,7 @@ footer article {
         color: white;
     }
 
-    /* **** Filtres Mob */
+/* **** Filtres Mob */
 
 
     .filters-links {
@@ -584,7 +581,8 @@ footer article {
         font-size: 0.87rem;
         min-width: 150px;
     }
-    /* **** Info Mob **** */
+    
+/* **** Info Mob **** */
 
     .info {
         display: flex;
@@ -597,14 +595,14 @@ footer article {
         padding: 4px 8px;
     }
 
-    /* **** Contenu Mob **** */
+/* **** Contenu Mob **** */
 
     .main-container {
         box-sizing: unset;
         padding: unset
     }
 
-    /* **** Hebergements Mob **** */
+/* **** Hebergements Mob **** */
 
     .hebergements-and-populaires section {
         border-radius: unset;
@@ -636,7 +634,7 @@ footer article {
         margin-top: 25px;
     }
 
-    /* **** Populaires Mob **** */
+/* **** Populaires Mob **** */
 
     .populaires {
         background-color: var(--main-bg-color);
@@ -655,7 +653,7 @@ footer article {
         margin-top: 15px;
     }
 
-    /* **** Activités Mob **** */
+/* **** Activités Mob **** */
 
     .activities-title {
         margin-left: 10px;
@@ -675,7 +673,7 @@ footer article {
         height: 141px;
     }
 
-    /* **** Footer Mob **** */
+/* **** Footer Mob **** */
 
     footer {
         flex-direction: column;
