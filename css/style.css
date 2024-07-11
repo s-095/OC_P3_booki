@@ -65,6 +65,7 @@ nav a:hover::after {
 
 .intro h1 {
     margin-bottom: unset;
+    font-size: 1.37rem;
 }
 
 .intro p {
@@ -79,22 +80,23 @@ nav a:hover::after {
 
 .search-container {
     display: flex;
+    height:50px;
 }
 
 .loc {
     background-color: #f2f2f2;
     border-radius: 15px 0px 0px 15px;
-    width: 52.5px;
+    width: 50px;
 }
 
 .loc i {
-    width: 52.5px;
-    line-height: 52.5px;
+    width: 50px;
+    line-height: 50px;
     text-align: center;
 }
 
 .search-input {
-    padding: 18px 24px;
+    padding: 18px 0px 18px 24px;
     outline: none;
     border: 0.5px solid #f2f2f2;
 }
@@ -102,7 +104,12 @@ nav a:hover::after {
 .search-input::placeholder {
     color: black;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
+}
+
+input{
+    font-size: 18px;
+    margin-right: -20px;
 }
 
 .search-button {
@@ -113,7 +120,7 @@ nav a:hover::after {
     border-radius: 0px 15px 15px 0px;
     cursor: pointer;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .search-button:hover {
