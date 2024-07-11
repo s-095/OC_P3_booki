@@ -25,6 +25,8 @@ header {
     margin: 22px 0px 52px 0px;
 }
 
+/* ** Navigation ** */
+
 nav {
     display: flex;
     gap: 68px;
@@ -59,6 +61,14 @@ nav a:hover::after {
 
 .banner {
     margin: 30px 0px 25px 0px;
+}
+
+.intro h1 {
+    margin-bottom: unset;
+}
+
+.intro p {
+    margin-top: 8px;
 }
 
 /* **** Formulaire **** */
@@ -345,11 +355,10 @@ a {
 
 .activities-boxes {
     display: flex;
+    gap: 30px;
 }
 
 .activity-card {
-
-    margin: 0px 10px 0px 10px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     width: 100%;
     background-color: white;
@@ -383,6 +392,11 @@ a {
     height: 380px;
     border-radius: 20px 20px 0px 0px;
 }
+.activities a{
+    width: 100%;
+}
+
+/* **** Footer **** */
 
 footer {
     background-color: #F2F2F2;
@@ -660,10 +674,6 @@ footer article {
         margin-top: 55px;
     }
 
-    .activities-title {
-        margin-left: 10px;
-    }
-
     .activities-boxes {
         flex-direction: column;
         gap: 15px;
@@ -677,6 +687,7 @@ footer article {
     .activities img {
         height: 141px;
     }
+
 
 /* **** Footer Mob **** */
 
