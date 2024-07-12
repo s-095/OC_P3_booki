@@ -107,6 +107,10 @@ nav a:hover::after {
     font-size: 18px;
 }
 
+.search-input:focus::placeholder {
+    color:transparent
+}
+
 input {
     font-size: 18px;
     width: 170px;
@@ -414,6 +418,10 @@ footer {
 footer article {
     flex-grow: 1;
     flex-basis: 0px;
+}
+
+footer a:hover {
+    color: var(--main-color);
 }
 
 
