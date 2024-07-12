@@ -184,14 +184,14 @@ input {
     gap: 10px;
 }
 
-#info-icon {
+.fa-info {
     font-size: 10px;
     font-weight: bold;
     font-style: normal;
     border: #d9d9d9;
     border-radius: 30px;
     border-style: solid;
-    padding: 6px 10px;
+    padding: 6px 9px;
     border-width: 1px;
 }
 
@@ -304,8 +304,8 @@ a {
     margin-bottom: 5px;
 }
 
-#afficher-plus {
-    margin: 25px 0px 0px 12px;
+.afficher-plus {
+    margin-top: 25px;
 }
 
 /****** Populaires ***********/
@@ -365,7 +365,7 @@ a {
     gap: 30px;
 }
 
-.activity-card {
+.activities-card {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     width: 100%;
     background-color: white;
@@ -376,17 +376,17 @@ a {
     height: 440px;
 }
 
-.activity-card .activity-card-content {
+.activities-card .activities-card-content {
     width: 100%;
     padding-left: 15px;
     box-sizing: border-box;
 }
 
-.activity-card-title {
+.activities-card-title {
     font-size: 16px;
 }
 
-.activity-card img {
+.activities-card img {
     object-fit: cover;
 }
 
@@ -488,7 +488,7 @@ footer article {
         height: 200px;
     }
 
-    .activity-card {
+    .activities-card {
         height: 270px;
     }
 
@@ -572,7 +572,6 @@ footer article {
     }
 
     .search-icon-button {
-        color: white;
         display: inline;
         padding: 15.7px;
         border-radius: 15px;
@@ -582,9 +581,7 @@ footer article {
         z-index: 2;
     }
 
-    .fa-magnifying-glass:before,
-    .fa-search:before {
-        content: "\f002";
+    .fa-magnifying-glass {
         color: white;
     }
 
@@ -609,10 +606,6 @@ footer article {
         flex-direction: row;
         align-items: center;
         gap: 10px;
-    }
-
-    #info-icon {
-        padding: 4px 8px;
     }
 
 /* **** Contenu Mob **** */
@@ -650,7 +643,7 @@ footer article {
         margin-top: 15px;
     }
 
-    #afficher-plus {
+    .afficher-plus {
         margin: unset;
         margin-top: 15px;
     }
@@ -685,7 +678,7 @@ footer article {
         gap: 15px;
     }
 
-    .activity-card {
+    .activities-card {
         width: unset;
         height: 200px;
     }
