@@ -80,16 +80,16 @@ nav a:hover::after {
 
 .search-container {
     display: flex;
-    height:50px;
+    height: 50px;
 }
 
-.loc {
+.formulaire label {
     background-color: #f2f2f2;
     border-radius: 15px 0px 0px 15px;
     width: 50px;
 }
 
-.loc i {
+.formulaire label i {
     width: 50px;
     line-height: 50px;
     text-align: center;
@@ -177,6 +177,7 @@ input {
 }
 
 /* **** */
+
 .info {
     margin-top: 20px;
     display: flex;
@@ -186,7 +187,6 @@ input {
 
 .fa-info {
     font-size: 10px;
-    font-weight: bold;
     font-style: normal;
     border: #d9d9d9;
     border-radius: 30px;
@@ -203,7 +203,6 @@ input {
     padding: 0 50px;
     box-sizing: border-box;
 }
-
 
 a {
     color: inherit;
@@ -399,7 +398,8 @@ a {
     height: 380px;
     border-radius: 20px 20px 0px 0px;
 }
-.activities a{
+
+.activities a {
     width: 100%;
 }
 
@@ -427,14 +427,14 @@ footer article {
         margin-bottom: 15px;
     }
 
-/* **** Filtres Tab **** */
+    /* **** Filtres Tab **** */
 
     .filters {
         display: flex;
         flex-direction: column;
     }
 
-    .filters h3{
+    .filters h3 {
         margin-bottom: 12px;
     }
 
@@ -443,7 +443,7 @@ footer article {
         white-space: nowrap;
     }
 
-/* **** Hebergements Tab **** */
+    /* **** Hebergements Tab **** */
 
     .hebergements-and-populaires {
         flex-direction: column;
@@ -453,7 +453,7 @@ footer article {
         width: 100%;
     }
 
-/* **** Populaires Tab **** */
+    /* **** Populaires Tab **** */
 
     .populaires {
         width: 100%;
@@ -482,7 +482,7 @@ footer article {
         width: 40%
     }
 
-/* **** Activités Tab **** */
+    /* **** Activités Tab **** */
 
     .activities img {
         height: 200px;
@@ -507,7 +507,7 @@ footer article {
         margin: 22px 0px 30px 0px
     }
 
-/* **** Navigation Mob **** */
+    /* **** Navigation Mob **** */
 
     nav {
         border-bottom: #2222;
@@ -535,17 +535,15 @@ footer article {
         text-align: center;
     }
 
-/* **** Bannière Mob **** */
+    /* **** Bannière Mob **** */
 
     .banner {
         margin: 30px 20px
     }
 
-/* **** Formulaire Mob **** */
+    /* **** Formulaire Mob **** */
 
-    .loc {
-        background-color: #f2f2f2;
-        border-radius: 15px 0px 0px 15px;
+    .formulaire label {
         position: absolute;
         left: 20px;
         Z-index: 3
@@ -563,7 +561,7 @@ footer article {
         box-sizing: border-box;
     }
 
-    .search-input::placeholder{
+    .search-input::placeholder {
         font-size: 18px;
     }
 
@@ -585,7 +583,7 @@ footer article {
         color: white;
     }
 
-/* **** Filtres Mob */
+    /* **** Filtres Mob */
 
 
     .filters-links {
@@ -594,12 +592,12 @@ footer article {
         justify-content: center
     }
 
-    .filters-links button{
+    .filters-links button {
         font-size: 0.87rem;
         min-width: 150px;
     }
-    
-/* **** Info Mob **** */
+
+    /* **** Info Mob **** */
 
     .info {
         display: flex;
@@ -608,14 +606,14 @@ footer article {
         gap: 10px;
     }
 
-/* **** Contenu Mob **** */
+    /* **** Contenu Mob **** */
 
     .main-container {
         box-sizing: unset;
         padding: unset
     }
 
-/* **** Hebergements Mob **** */
+    /* **** Hebergements Mob **** */
 
     .hebergements-and-populaires section {
         border-radius: unset;
@@ -648,7 +646,7 @@ footer article {
         margin-top: 15px;
     }
 
-/* **** Populaires Mob **** */
+    /* **** Populaires Mob **** */
 
     .populaires {
         background-color: var(--main-bg-color);
@@ -667,7 +665,7 @@ footer article {
         margin-top: 15px;
     }
 
-/* **** Activités Mob **** */
+    /* **** Activités Mob **** */
 
     .activities {
         margin-top: 55px;
@@ -688,7 +686,7 @@ footer article {
     }
 
 
-/* **** Footer Mob **** */
+    /* **** Footer Mob **** */
 
     footer {
         flex-direction: column;
